@@ -127,6 +127,7 @@
 .concepto-knitted {
     @include concepto-coleccion($color-knitted,$color-negro);
 }
+//MOBILE
 @media (max-width: 576px) {
     .concepto-denim, .concepto-pink, .concepto-color, .concepto-knitted {
         font-size: 1.8rem;

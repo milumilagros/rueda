@@ -20,6 +20,11 @@
     .navbar a:hover {
       color: #F263B2 !important; }
 
+@media (max-width: 768px) {
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_menu.scss */
+  .navbar img {
+    width: 50%; } }
+
 /* line 1, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_footer.scss */
 .footer-icons i {
   font-size: 3rem;
@@ -76,39 +81,39 @@
   margin: 10px; }
 
 @media (max-width: 768px) {
-  /* line 29, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 30, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto p {
     font-size: 1rem; }
-  /* line 32, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 33, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto .btn {
     background-color: #8D6199;
     border: solid 1.6px;
     border-color: white;
     font-size: 1rem; }
-  /* line 38, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 39, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto i {
     font-size: 2rem !important; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 45, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 46, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto p {
     font-size: 1.4rem;
     padding-left: 1rem;
     padding-right: 1rem; }
-  /* line 50, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 51, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto .form-outline {
     margin-bottom: 0px !important; }
-  /* line 53, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 54, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto .form-check {
     padding-top: 1rem !important; }
-  /* line 56, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 57, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto i {
     font-size: 2rem !important;
     padding-bottom: 0px !important; }
-  /* line 60, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 61, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto .btn {
     margin: 0px 0px 0px 0px !important; }
-  /* line 63, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
+  /* line 64, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/_contacto.scss */
   #contacto .check {
     padding: 2rem !important; } }
 
