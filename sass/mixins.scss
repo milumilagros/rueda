@@ -1,0 +1,183 @@
+@import 'variables';
+
+//INDEX-Seccion COLECCIONES VIGENTES
+@mixin encabezado-secciones {
+    background-color:$color-negro;
+    color:$color-blanco;
+    h2 {
+        letter-spacing: 0.6rem;
+        text-transform: uppercase;
+    }
+}
+.encabezado-secciones {
+    @include encabezado-secciones;
+}
+//TODAS LAS COLECCIONES - Imagen presentacion header
+@mixin header-colecciones ($background-image) {
+    background-image: $background-image;
+    background-size: cover;
+    //   background-position: center; 
+      background-attachment: fixed;
+      height: 90vw;
+      min-width: 100%;
+      top: 30px;
+      h2 {
+          position: absolute;
+          padding-left: 20px;
+          background-color: rgba(255, 255, 255, 0.829);
+      }
+}
+.header-colecciones-index {
+    @include header-colecciones (url(../img/pink1.jpg));
+}
+.header-colecciones-denim {
+    @include header-colecciones (url(../img/denim.jpg));
+}
+.header-colecciones-pink {
+    @include header-colecciones (url(../img/pink3.jpg));
+}
+.header-colecciones-color {
+    @include header-colecciones (url(../img/colorheader.jpg));
+}
+.header-colecciones-knitted {
+    @include header-colecciones (url(../img/basiccubo.jpg));
+}
+//TODAS LAS COLECCIONES - Imagen main
+@mixin main-colecciones ($background-image) {
+    background-image: $background-image;
+    background-size: cover;
+      background-position: center; 
+      background-attachment: fixed;
+      height: 90vw;
+      min-width: 100%;
+      top: 100px;
+      h2 {
+          position: absolute;
+          padding-left: 20px;
+          background-color: rgba(255, 255, 255, 0.829);
+      }
+}
+.main-colecciones-index {
+    @include header-colecciones (url(../img/colorindex.jpg));
+}
+.main-colecciones-denim {
+    @include header-colecciones (url(../img/denim2.jpg));
+}
+.main-colecciones-pink {
+    @include header-colecciones (url(../img/pinkmain.jpg));
+}
+.main-colecciones-color {
+    @include header-colecciones (url(../img/colormain.jpg));
+}
+.main-colecciones-knitted {
+    @include header-colecciones (url(../img/basicbyn.jpg));
+}
+//INDEX- Cards COLECCIONES VIGENTES
+@mixin card-coleccion ($background-color,$text-color) {
+    background-color: $background-color;
+    color:$text-color;
+    text-align:center;
+    h3{
+        padding:8px 8px;
+    }
+    p {
+            font-size: 1.7rem;  
+            padding:8px 8px;
+        }
+    a{
+        text-decoration: none;
+            list-style: none;        
+            font-size: 1.8rem;
+            padding: 0.7rem;
+            border-radius: 8px;
+            color: $color-blanco;
+            background-color: $color-negro;
+    }&:hover{
+        background-color: $color-contacto;
+        }   
+}
+.card-coleccion-denim {
+    @include card-coleccion($color-denim,$color-blanco);
+}
+.card-coleccion-pink {
+    @include card-coleccion($color-pink,$color-blanco);
+}
+.card-coleccion-color {
+    @include card-coleccion($color-color-full,$color-negro);
+}
+.card-coleccion-knitted {
+    @include card-coleccion($color-knitted,$color-negro);
+}
+
+//COLECCIONES - Bloque CONCEPTO
+@mixin concepto-coleccion ($background-color,$text-color) {
+    background-color: $background-color;
+    color: $text-color;
+    font-size: 2rem;
+}
+.concepto-denim {
+    @include concepto-coleccion($color-denim,$color-blanco);
+}
+.concepto-pink{
+    @include concepto-coleccion($color-pink,$color-blanco);
+}
+.concepto-color {
+    @include concepto-coleccion($color-color-full,$color-negro);
+}
+.concepto-knitted {
+    @include concepto-coleccion($color-knitted,$color-negro);
+}
+@media (max-width: 576px) {
+    .concepto-denim, .concepto-pink, .concepto-color, .concepto-knitted {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 768px){
+    .header-colecciones-index, .header-colecciones-denim, .header-colecciones-pink, .header-colecciones-color, .header-colecciones-knitted {
+        background-size: cover;
+        background-position: center; 
+        background-attachment: unset;
+        height: 90vw;
+        min-width: 100%;
+        top: 100px;
+    }
+}
+@media (max-width: 768px){
+    .main-colecciones-index, .main-colecciones-denim, .main-colecciones-pink, .main-colecciones-color, .main-colecciones-knitted {
+        background-size: cover;
+        background-position: center; 
+        background-attachment: unset;
+        height: 90vw;
+        min-width: 100%;
+        top: 100px;
+    }
+}
+@media (max-width: 768px){
+    .card-coleccion-denim, .card-coleccion-pink, .card-coleccion-color, .card-coleccion-knitted {
+        h3{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        p {
+                font-size: 1.7rem;  
+                padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            }
+        a{
+            text-decoration: none;
+                list-style: none;        
+                font-size: 1.8rem;
+                padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+                border-radius: 8px;
+                color: $color-blanco;
+                background-color: $color-negro;
+        }
+    }
+}

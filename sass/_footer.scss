@@ -1,0 +1,26 @@
+.footer-icons i{
+    font-size: 3rem;
+    color: $color-negro!important;
+    transition: all linear 1s;
+    cursor: pointer;
+&:hover {
+    color:$color-hover!important;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+//MOBILE
+@media (max-width: 576px) {
+    .footer-icons i{
+        font-size: 2rem;
+        margin: 20px 20px 0px 20px;
+        color: $color-blanco!important;
+    }
+    .page-footer {
+        background-color: $color-negro;
+    }
+    .footer-copyright {
+        color: $color-blanco!important;
+
+    }
+}

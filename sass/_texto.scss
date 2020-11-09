@@ -1,0 +1,26 @@
+@each $header, $size in (h1: 3rem, h2: 2.5rem, h3: 2rem, h4: 1.5rem, h5: 1rem,h6: 0.75rem) {
+    #{$header} {
+      font-size: $size;
+      font-family: 'Playfair Display', serif!important;
+      text-align: center;
+    }
+  }
+p {
+    font-family: 'Raleway', sans-serif!important;
+    text-align: center!important;
+}
+.tituloColeccion {
+    position: absolute;
+    right: 50%;
+    margin-top: 50px;
+}
+//MOBILE
+@media (max-width: 576px) {
+    @each $header, $size in (h1: 3rem, h2: 2rem, h3: 2rem, h4: 2.5rem, h5: 2rem,h6: 1.75rem) {
+        #{$header} {
+          font-size: $size;
+          font-family: 'Playfair Display', serif!important;
+          text-align: center;
+        }
+      }
+}

@@ -1,0 +1,326 @@
+/* line 12, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.encabezado-secciones {
+  background-color: black;
+  color: white; }
+  /* line 7, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .encabezado-secciones h2 {
+    letter-spacing: 0.6rem;
+    text-transform: uppercase; }
+
+/* line 30, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.header-colecciones-index {
+  background-image: url(../img/pink1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-index h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 33, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.header-colecciones-denim {
+  background-image: url(../img/denim.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-denim h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 36, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.header-colecciones-pink {
+  background-image: url(../img/pink3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-pink h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 39, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.header-colecciones-color {
+  background-image: url(../img/colorheader.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-color h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 42, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.header-colecciones-knitted {
+  background-image: url(../img/basiccubo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-knitted h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 60, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.main-colecciones-index {
+  background-image: url(../img/colorindex.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-index h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 63, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.main-colecciones-denim {
+  background-image: url(../img/denim2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-denim h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 66, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.main-colecciones-pink {
+  background-image: url(../img/pinkmain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-pink h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 69, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.main-colecciones-color {
+  background-image: url(../img/colormain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-color h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 72, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.main-colecciones-knitted {
+  background-image: url(../img/basicbyn.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vw;
+  min-width: 100%;
+  top: 30px; }
+  /* line 24, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-knitted h2 {
+    position: absolute;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.829); }
+
+/* line 99, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.card-coleccion-denim {
+  background-color: #125D9D;
+  color: white;
+  text-align: center; }
+  /* line 80, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim h3 {
+    padding: 8px 8px; }
+  /* line 83, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim p {
+    font-size: 1.7rem;
+    padding: 8px 8px; }
+  /* line 87, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black; }
+  /* line 95, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim:hover {
+    background-color: #8D6199; }
+
+/* line 102, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.card-coleccion-pink {
+  background-color: #F263B2;
+  color: white;
+  text-align: center; }
+  /* line 80, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-pink h3 {
+    padding: 8px 8px; }
+  /* line 83, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-pink p {
+    font-size: 1.7rem;
+    padding: 8px 8px; }
+  /* line 87, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-pink a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black; }
+  /* line 95, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-pink:hover {
+    background-color: #8D6199; }
+
+/* line 105, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.card-coleccion-color {
+  background-color: #BDF249;
+  color: black;
+  text-align: center; }
+  /* line 80, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-color h3 {
+    padding: 8px 8px; }
+  /* line 83, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-color p {
+    font-size: 1.7rem;
+    padding: 8px 8px; }
+  /* line 87, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-color a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black; }
+  /* line 95, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-color:hover {
+    background-color: #8D6199; }
+
+/* line 108, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.card-coleccion-knitted {
+  background-color: #3cc2a0;
+  color: black;
+  text-align: center; }
+  /* line 80, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-knitted h3 {
+    padding: 8px 8px; }
+  /* line 83, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-knitted p {
+    font-size: 1.7rem;
+    padding: 8px 8px; }
+  /* line 87, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-knitted a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black; }
+  /* line 95, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-knitted:hover {
+    background-color: #8D6199; }
+
+/* line 118, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.concepto-denim {
+  background-color: #125D9D;
+  color: white;
+  font-size: 2rem; }
+
+/* line 121, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.concepto-pink {
+  background-color: #F263B2;
+  color: white;
+  font-size: 2rem; }
+
+/* line 124, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.concepto-color {
+  background-color: #BDF249;
+  color: black;
+  font-size: 2rem; }
+
+/* line 127, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+.concepto-knitted {
+  background-color: #3cc2a0;
+  color: black;
+  font-size: 2rem; }
+
+@media (max-width: 576px) {
+  /* line 131, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .concepto-denim, .concepto-pink, .concepto-color, .concepto-knitted {
+    font-size: 1.8rem; } }
+
+@media (max-width: 768px) {
+  /* line 136, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .header-colecciones-index, .header-colecciones-denim, .header-colecciones-pink, .header-colecciones-color, .header-colecciones-knitted {
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+    height: 90vw;
+    min-width: 100%;
+    top: 100px; } }
+
+@media (max-width: 768px) {
+  /* line 146, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .main-colecciones-index, .main-colecciones-denim, .main-colecciones-pink, .main-colecciones-color, .main-colecciones-knitted {
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+    height: 90vw;
+    min-width: 100%;
+    top: 100px; } }
+
+@media (max-width: 768px) {
+  /* line 157, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim h3, .card-coleccion-pink h3, .card-coleccion-color h3, .card-coleccion-knitted h3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  /* line 163, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim p, .card-coleccion-pink p, .card-coleccion-color p, .card-coleccion-knitted p {
+    font-size: 1.7rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  /* line 170, ../../../../../../../../../../../../../Users/pumilu/Desktop/DW/Maria Milagros Orlandini/rueda/sass/mixins.scss */
+  .card-coleccion-denim a, .card-coleccion-pink a, .card-coleccion-color a, .card-coleccion-knitted a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    color: white;
+    background-color: black; } }
+
+/*# sourceMappingURL=mixins.css.map */
